@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+   
+}
+.inner{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.nav {
+    color: #ffffff;
+    display: inline-block;    
+    float: right;
+    margin-right: 50px;
+    position: absolute;
+    right: 200px;
+    margin-top: 20px;
+    position: fixed;
+    
+}
+.nav ul li {
+    display: inline;
+    padding-left: 20px;
+    list-style: none;
+}
+.bakry {
+    position: absolute;
+    left: 200px;
+}
+.header .home-caption{
+    text-align: center;  
+    padding-top: 300px;
+}
+
+.header  h1{
+    font-size: 70px;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+}
+.header h3 {
+    font-family: 'Alegreya Sans';
+    color: #ffffff;
+}
+.header p {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Alegreya Sans';
+}
+.learn-more {
+    border: none;
+    width:120px;
+    height: 55px;
+    background-color: 6a544a;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.contact-us {
+    border: none;
+    width: 120px;
+    height: 55px;
+    color:ffffff;
+    border-radius: 5px;
+    background-color: Transparent;
+    border: #ffffff;
+    border-style: inset;
+}
+.alxanada-img { 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.alxanada-img img {
+    width: 100%;
+}
+.text-alxanada {
+    width: 59%;
+    display: inline-block;
+}
+.text-alxanada h3 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.text-alxanada p {
+    line-height: 31.62px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color:#686868;
+}
+
+.icon {
+    list-style: none;
+    margin-top: 30px;
+}
+.leaf img {
+    width: 50px;
+    margin-right: 10px;
+    float: left;
+    background-color:#ffffff;
+    border-radius: 25px;
+    border-top: #686868;
+    border-style: solid;
+    border-width: 1px;
+}
+.leaf-text {
+    padding-top: 10px;
+    
+}
+
+.people img {
+    width: 50px;
+    float: left;
+    background-color:#ffffff;
+    border-radius: 25px;
+    border-top: #686868;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: -60px;
+    margin-right: 20px;
+}
+.text-people {
+    padding-top: 50px;
+    
+}
+
+.heart img {
+    width: 50px;
+    float: left;
+    background-color:#ffffff;
+    border-radius: 25px;
+    border-top: #686868;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: -70px;
+    margin-right: 20px;
+}
+.text-heart{
+    padding-top: 50px;
+    
+}
+.check img {
+    width: 50px;
+    float: left;
+    background-color:#ffffff;
+    border-radius: 25px;
+    border-top: #686868;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: -70px;
+    margin-right: 20px;
+}
+.text-check{
+    padding-top: 50px;
+    
+}
+.clr {
+    clear: both;
+}
+.inner-location {
+    display: inline;
+
+}
+.location {
+    background-color: #f8f8f8;
+}
+.contenar-loction{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+.locatin-img { 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.locatin-img img {
+    width: 100%;
+    padding-top: 50px;
+}
+.text-location {
+    width: 59%;
+    display: inline-block;
+    padding-top: 100px;
+}
+.text-location h3 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.text-location p {
+    line-height: 31.62px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color:#686868;
+}
+
+.our-baking {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.cek {
+    width: 20.333%;
+    display: inline-block; 
+    margin-left: 2%; 
+    margin-top: 50px;
+    vertical-align: top;
+}
+.cek img {
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.cek h4{
+    margin-bottom: 30px;
+    font-family:  'Alegreya', serif;;
+    font-weight: 400;
+    font-size: 22px;
+}
+.cek p {
+    line-height: 31.62px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color:#686868;
+}
+.our-baking h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight:400;
+    line-height:41.4px;
+    margin-bottom: 10px;
+}
+.our-baking p{
+    line-height: 31.62px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color:#686868;
+}
+
+
+
+.Contact {
+    background-color: #f8f8f8;
+}
+.contenar-Contact{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+.Contact-img { 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.Contact-img iframe {
+    width: 100%;
+    padding-top: 50px;
+}
+.text-Contact {
+    width: 59%;
+    display: inline-block;
+    padding-top: 100px;
+}
+.text-Contact h3 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.text-Contact p {
+    line-height: 31.62px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color:#686868;
+}
+.icon-contact {
+    list-style: none;
+    margin-top: 30px;
+}
+.map img {
+    width: 50px;
+    margin-right: 10px;
+    float: left;
+    background-color:rgb(142, 119, 84);
+    border-radius: 25px;
+  
+}
+.phone img {
+    width: 50px;
+    float: left;
+    background-color:rgb(142, 119, 84);
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: -60px;
+    margin-right: 20px;
+}
+.headphone img {
+    width: 50px;
+    float: left;
+    background-color:rgb(142, 119, 84);
+    border-radius: 25px;
+    border-top: rgb(142, 119, 84);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: -70px;
+    margin-right: 20px;
+}
+.email img {
+    width: 50px;
+    float: left;
+    background-color:rgb(142, 119, 84);
+    border-radius: 25px;
+    border-top: #686868;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: -70px;
+    margin-right: 20px;
+}
+.footer-min {
+    margin-top: 70px;
+    width: 100%;
+    background-color: #403D38;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer {
+    width: 15%;
+    background-color: #403D38;
+    padding: 20px; 
+    color: #fff;
+    padding-top: 50px;
+}
+
+.text-footer h4 {
+    font-size: 18px;
+    line-height:30px;
+    font-weight:400;
+}
+
+.text-footer p {
+    font-size: 16px;
+    color: #969696;
+    line-height:29.76px;
+}
+.text-footer li {
+    list-style: none;
+    font-size: 16px;
+    color: #969696;
+    line-height:29.76px;
+   
+}
+.text-footer li:before { 
+    content: '> ';
+    margin-right: 5px;
+}
+.con {
+    background-image:url(images/contact-details-map.png) ;
+    background-repeat: no-repeat;
+}
+.con .loc {
+    list-style-image: url(images/Icons/location.png) 50px;
+    color: #fff;
+}
+.footbut {
+    background-color: #353330;
+} 
+.foot{
+    text-align: center;
+    padding-top: 100px;
+} 
+.facebook {
+    width: 40px;
+    background-color: #686868;
+    border-radius: 20px;
+    margin: 10px 3px;
+}
+.foot p{
+    font-size: 16px;
+    color: #969696;
+    line-height:29.76px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
